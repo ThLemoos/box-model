@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Teste</title>
+    <style>
+
+        html {
+            background-color: darkgray;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            background-color: white;
+            height: 1000px;
+            max-width: 800px;
+            margin: 0 auto;
+            box-shadow: 5px 5px 5px gray;
+            margin-top: 90px;
+            padding: 20px;
+        }
+
+        #cabecalho {
+            display: flex;
+            justify-content: space-between;
+            background-color: #1e1d20;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        #cabecalho a {
+            color: white;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+        }
+
+        #cabecalho h1 {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:blue;
+            text-shadow: 2px 2px 2px darkgray;
+            border: 5px double blue;
+        }
+
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .menu li {
+            list-style: none;
+            margin: 10px;
+            padding: 10px;
+            transition: 0.3s ease;
+        }
+
+        .menu li:hover {
+            transform: scale(1.2);
+        }
+        
+        .blocos {
+            background-color: tomato;
+            padding: 20px;
+            margin-top: 50px;
+            width: 200px;
+            text-align: center;
+            margin-left: 280px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-shadow: 3px 3px 3px black;
+            border: 10px double white;
+            margin-bottom: 70px;
+        }
+
+        .caixas {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .caixas p {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: tomato;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 5px 5px 5px gray;
+            margin-bottom: 0px;
+        }
+
+        .caixas > div {
+            flex: 1 1 200px;
+            margin: 10px;
+        }
+
+        .caixas a {
+            color: white;
+            text-decoration: none;
+            background-color: #1e1d20;
+            padding: 10px;
+            transition: 0.3s ease;
+            box-shadow: 3px 3px 3px black;
+        }
+
+        .caixas a:hover {
+            color: black;
+            background-color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>ThLemos</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Página Inicial</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header class="blocos">
+        <h2>BOX MODEL</h2>
+    </header>
+    <section class="caixas">
+        <div>
+            <p>
+                <b>CAIXA 1</b><br><br><br>
+                Lorem ipsum dolor sit amet.<br>
+                Lorem ipsum dolor sit amet.<br><br><br>
+                <a href="#">Clique Aqui</a>
+            </p>
+        </div>
+        <div>
+            <p>
+                <b>CAIXA 1</b><br><br><br>
+                Lorem ipsum dolor sit amet.<br>
+                Lorem ipsum dolor sit amet.<br><br><br>
+                <a href="#">Clique Aqui</a>
+            </p>
+        </div>
+        <div>
+            <p>
+                <b>CAIXA 1</b><br><br><br>
+                Lorem ipsum dolor sit amet.<br>
+                Lorem ipsum dolor sit amet.<br><br><br>
+                <a href="#">Clique Aqui</a>
+            </p>
+        </div>
+        <div>
+            <p>
+                <b>CAIXA 1</b><br><br><br>
+                Lorem ipsum dolor sit amet.<br>
+                Lorem ipsum dolor sit amet.<br><br><br>
+                <a href="#">Clique Aqui</a>
+            </p>
+        </div>
+        <div>
+            <p>
+                <b>CAIXA 1</b><br><br><br>
+                Lorem ipsum dolor sit amet.<br>
+                Lorem ipsum dolor sit amet.<br><br><br>
+                <a href="#">Clique Aqui</a>
+            </p>
+        </div>
+        <div>
+            <p>
+                <b>CAIXA 1</b><br><br><br>
+                Lorem ipsum dolor sit amet.<br>
+                Lorem ipsum dolor sit amet.<br><br><br>
+                <a href="#">Clique Aqui</a>
+            </p>
+        </div>
+    </section>
+</body>
+</html>
